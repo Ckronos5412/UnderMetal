@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_noticia"
+            android:icon="@mipmap/ic_noticia"
+            android:title="Noticias" />
+    </group>
+
+    <item android:title="Eventos">
+        <menu>
+            <item
+                android:id="@+id/nav_event_ult"
+                android:icon="@mipmap/ic_evento"
+                android:title="Últimos" />
+            <item
+                android:id="@+id/nav_event_all"
+                android:icon="@mipmap/ic_evento_all"
+                android:title="Todos" />
+        </menu>
+    </item>
+
+    <item android:title="Locales">
+        <menu>
+            <item
+                android:id="@+id/nav_local_all"
+                android:icon="@mipmap/ic_evento"
+                android:title="Todos" />
+            <item
+                android:id="@+id/nav_local_map"
+                android:icon="@mipmap/ic_local_mapa"
+                android:title="Mapa" />
+        </menu>
+    </item>
+
+    <item android:title="Bandas">
+        <menu>
+            <item
+                android:id="@+id/nav_banda"
+                android:icon="@mipmap/ic_evento"
+                android:title="Todos" />
+        </menu>
+    </item>
+
+</menu>

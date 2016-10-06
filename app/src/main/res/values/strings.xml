@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UnderMetal</string>
+    <string name="title_activity_drawer">ActivityDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello asdasdaasdasdasdasdasdasd fragment</string>
+    <string name="title_activity_map">Map</string>
+</resources>
